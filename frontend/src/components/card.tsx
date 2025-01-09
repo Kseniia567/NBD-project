@@ -56,10 +56,6 @@ export const Card = ({id, avatar, image, description, title, email, ingredients,
             className={`w-full ${
                 isFull ? "md:w-[50%]" : "md:w-[14rem] "
             } bg-zinc-900  
-      transition ease-in-out delay-150
-      hover:translate-x-6 
-      hover:scale-100
-      duration-300
       mb-4
       `}
         >

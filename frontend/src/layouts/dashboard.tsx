@@ -55,7 +55,7 @@ export const DashboardLayout = () => {
             </div>
 
             <div className="flex flex-col md:flex-row w-full h-full z-10 relative">
-                <div className="hidden md:block bg-zinc-900 h-full w-[20%] fixed">
+                <div className="hidden md:block bg-zinc-900 h-full w-200px fixed">
                     <div className="md:flex gap-8 items-start w-full p-3">
                         <img
                             className="h-16 w-16 object-cover rounded-full"

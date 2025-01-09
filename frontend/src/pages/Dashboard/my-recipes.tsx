@@ -2,7 +2,7 @@ import { RecipeCard, SearchBox } from "../../components";
 import { instance } from "../../config";
 import { AUTH_TYPE, IRECIPERESPONSE } from "../../@types";
 import { AuthenticationContext } from "../../context";
-import { NoRecipe } from "./common";
+import { NoRecipe } from "./Common";
 import { useRecipe } from "../../hooks";
 import { SearchLoader, UILoader } from "../../components/loaders";
 import {FormEvent, useContext, useState, Suspense} from "react";

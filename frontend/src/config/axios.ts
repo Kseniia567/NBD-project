@@ -2,7 +2,8 @@ import axios, {CreateAxiosDefaults} from "axios";
 import cogoToast from "cogo-toast";
 
 export const instance = axios.create({
-    baseURL: import.meta.env.VITE_BASE_URL_DEV,
+
+    baseURL: `${window.location.protocol}//${window.location.hostname}:${import.meta.env.VITE_BASE_PORT_DEV}`,
     headers: {
         "Access-Control-Allow-Origin": "*",
     },

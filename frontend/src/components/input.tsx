@@ -16,7 +16,7 @@ export const Input = ({
     error?: string;
 }) => {
     return (
-        <div className="relative">
+        <div>
             <input
                 {...rest}
                 type={type}
